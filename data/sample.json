@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "title": "Sample Article 1",
+            "description": "This is a sample article for offline testing.",
+            "url": "https://example.com/article1"
+        },
+        {
+            "title": "Sample Article 2",
+            "description": "Another sample article for offline testing.",
+            "url": "https://example.com/article2"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized News Aggregator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Personalized News Aggregator</h1>
+    </header>
+
+    <!-- Go to Bookmarked Articles Button (Top Right Corner) -->
+    <button id="go-to-bookmarks" onclick="goToBookmarks()">Go to Bookmarked Articles</button>
+
+    <main>
+        <section>
+            <h2>Select News Category</h2>
+            <select id="category-selector">
+                <option value="technology">Technology</option>
+                <option value="sports">Sports</option>
+                <option value="business">Business</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="health">Health</option>
+            </select>
+            <button id="fetch-news">Fetch News</button>
+        </section>
+
+        <section id="news-container">
+            <h2>News Articles</h2>
+            <!-- Articles will be dynamically loaded here -->
+        </section>
+
+        <!-- Bookmarks Section -->
+        <section id="bookmarks-section">
+            <h2>Bookmarked Articles</h2>
+            <div id="bookmarks-container">
+                <!-- Bookmarks will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Pop-up Notification -->
+    <div id="popup-notification" class="hidden">Bookmark added!</div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

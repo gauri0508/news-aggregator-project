@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#EBD8D0;
+    color: #333;
+}
+
+header {
+    background-color: #922D50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#news-container {
+    margin-bottom: 40px;
+}
+
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #D3AB9E;
+}
+
+button {
+    background-color: #6D2E46;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Bookmarks Section Styling */
+#bookmarks-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #D5B9B2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#bookmarks-container {
+    margin-top: 20px;
+}
+
+/* Button for navigating to bookmarks (top right corner) */
+#go-to-bookmarks {
+    position: fixed;
+    top: 125px;
+    right: 20px;
+    background-color: #6D2E46;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#go-to-bookmarks:hover {
+    background-color: #218838;
+}
+
+/* Pop-up notification */
+#popup-notification {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+    z-index: 1000;
+}
+
+#popup-notification.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+#popup-notification.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
