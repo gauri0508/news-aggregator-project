@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #922D50;
-    color: white;
+    color: #F3EDE2;
     padding: 20px;
     text-align: center;
 }
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-    background-color: #005bb5;
+    background-color: #481E2E;
 }
 
 /* Bookmarks Section Styling */
@@ -73,7 +73,7 @@ button:hover {
 }
 
 #go-to-bookmarks:hover {
-    background-color: #218838;
+    background-color: #481E2E;
 }
 
 /* Pop-up notification */
@@ -81,7 +81,7 @@ button:hover {
     position: fixed;
     top: 10%;
     right: 10%;
-    background-color: #28a745;
+    background-color: #B75279;
     color: white;
     padding: 15px 20px;
     border-radius: 5px;
